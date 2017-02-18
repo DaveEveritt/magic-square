@@ -1,0 +1,19 @@
+# Given space-separated numbers of any length
+
+## Is it the right number of integers for an n x n matrix?
+
+- split into an array
+- remove duplicates
+- check that mod sqrt length == 0
+- return sqrt length for the order (n)
+
+## Are all numbers present from 1..n^2 (or 0..(n^2)-1)
+
+- check that the lowest number is 0 or 1
+- map the array to a new sorted array
+- loop through, checking if each number is -1 of the next
+
+=== TEST THIS FAR ===
+
+## split the array into n-length sub-arrays
+
