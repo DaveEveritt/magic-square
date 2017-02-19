@@ -1,5 +1,9 @@
 # Magic Square checker in JavaScript
 
+(pseudocode-feb2017)
+
+---
+
 Given space-separated string of numbers of any length:
 
 ## 1. Is the number of integers correct for an n x n matrix?
