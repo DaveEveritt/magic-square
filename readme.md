@@ -20,9 +20,9 @@ DONE TO HERE
 
 ---
 
-- check all array elements are integers
+- check all array elements are integers not fractions
 - OR
-- force array elements to integers with div
+- force array elements to integers with Math.floor()
 
 
 ## 2. Check numbers contiguous and all present 
