@@ -1,39 +1,53 @@
 # Magic Square checker in JavaScript
 
-Given space-separated numbers of any length
+Given space-separated string of numbers of any length:
 
-## 1. Is it the right number of integers for an n x n matrix?
+## 1. Is the number of integers correct for an n x n matrix?
 
-### DONE:
 - split into an array
+- convert strings to numbers
 - remove duplicates
 - check that mod sqrt length == 0
-- return sqrt length for the order (n)
 
-### TODO:
+RETURN: sqrt length is the order (n) of magic square
+
+---
+DONE TO HERE
+
+---
+
 - check all array elements are integers
 - OR
 - force array elements to integers with div
 
 
-## 2. Are all numbers present from 1..n^2 (or 0..(n^2)-1)
+## 2. Check numbers contiguous and all present 
 
+- map to a new sorted array
 - check that the lowest number is 0 or 1
-- map the array to a new sorted array
-- loop through, checking if each number is -1 of the next
+- note if numbers run 1..n^2 or 0..(n^2)-1
+- check that each number is -1 of the next
 
-=== TEST THIS FAR ===
-
+RETURN: true if a magic square candidate
 
 ## 3. Prepare to check the magic properties
 
 - Split the array into n-length sub-arrays?
 - OR
 - Parse through as a 1-dimensional array
-
+- OR
+- use a js matrix library
 
 ## 4. Check the magic properties
 
-- is semimagic?
-- is magic?
-- is most-perfect?
+- rows
+- columns
+- diagonals
+- quarters
+- broken diagonals
+
+RETURN: sub-type of magic square:
+- semimagic?
+- magic?
+- most-perfect?
+- others?
