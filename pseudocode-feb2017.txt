@@ -1,13 +1,22 @@
-# Given space-separated numbers of any length
+# Magic Square checker in JavaScript
 
-## Is it the right number of integers for an n x n matrix?
+Given space-separated numbers of any length
 
+## 1. Is it the right number of integers for an n x n matrix?
+
+### DONE:
 - split into an array
 - remove duplicates
 - check that mod sqrt length == 0
 - return sqrt length for the order (n)
 
-## Are all numbers present from 1..n^2 (or 0..(n^2)-1)
+### TODO:
+- check all array elements are integers
+- OR
+- force array elements to integers with div
+
+
+## 2. Are all numbers present from 1..n^2 (or 0..(n^2)-1)
 
 - check that the lowest number is 0 or 1
 - map the array to a new sorted array
@@ -15,5 +24,16 @@
 
 === TEST THIS FAR ===
 
-## split the array into n-length sub-arrays
 
+## 3. Prepare to check the magic properties
+
+- Split the array into n-length sub-arrays?
+- OR
+- Parse through as a 1-dimensional array
+
+
+## 4. Check the magic properties
+
+- is semimagic?
+- is magic?
+- is most-perfect?
