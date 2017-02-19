@@ -34,7 +34,16 @@ DONE TO HERE
 
 RETURN: true if a magic square candidate
 
-## 3. Prepare to check the magic properties
+
+## 3. Check order
+
+- use % 2 to check if order is odd or even
+- /2 % 2 to check if odd-even (6, 10, 14..)
+
+RETURN: odd, even or odd-even
+
+
+## 4. Prepare to check the magic properties
 
 - Split the array into n-length sub-arrays?
 - OR
@@ -42,7 +51,8 @@ RETURN: true if a magic square candidate
 - OR
 - use a js matrix library
 
-## 4. Check the magic properties
+
+## 5. Check the magic properties
 
 - rows
 - columns
