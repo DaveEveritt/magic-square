@@ -51,6 +51,7 @@ RETURN: odd, even or odd-even
 - OR
 - use a js matrix library
 
+RETURN: a suitable data structure for checking magic properties
 
 ## 5. Check the magic properties
 
