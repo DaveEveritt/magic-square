@@ -1,6 +1,7 @@
-# Magic Square checker in JavaScript
+# Magic Square checker in JavaScript (pseudocode)
 
-(pseudocode-feb2017)
+created: feb2017
+updated: 11mar2017
 
 ---
 
