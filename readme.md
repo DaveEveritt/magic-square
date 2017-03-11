@@ -13,6 +13,9 @@ Given space-separated string of numbers of any length:
 - remove duplicates
 - check that mod sqrt length == 0
 
+- force negative numbers to positive
+- convert floats to integers
+
 RETURN: sqrt length is the order (n) of magic square
 
 ---
@@ -20,9 +23,12 @@ DONE TO HERE
 
 ---
 
-- check all array elements are integers not fractions
-- OR
-- force array elements to integers with Math.floor()
+TODO:
+- reject negative numbers and floats earlier?
+- delete floats, don't convert to integers
+- force negative numbers to positive or just delete?
+- or leave negatives for balanced squares?
+
 
 
 ## 2. Check numbers contiguous and all present 
