@@ -3,5 +3,5 @@
 function printOutput(toprint) {
   let output = document.getElementById("outputs");
   output.innerHTML = toprint;
-  // console.log(output);
+  // console.log(toprint);
 }

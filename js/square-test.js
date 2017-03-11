@@ -37,18 +37,10 @@
   let order = Math.sqrt(dataArrayUndup.length);
   let isInteger = (dataArrayUndup.length % order == 0);
   // return true pr false here
-  outputToPrint += `Square root of array length (${dataArrayUndup.length}) is: ${order}<br>If this is this an integer (${isInteger}) then this is a square (n x n) array: ${isInteger}</p>`;
+  outputToPrint += `<p>Square root of array length (${dataArrayUndup.length}) is: ${order}<br>If this is this an integer (${isInteger}) then this is a square (n x n) array: ${isInteger}</p>`;
 /* END 3 */
 
 
   printOutput(outputToPrint);
-
-  // duplicates printOutput to console
-  console.log(outputToPrint);
-  // console.log( `TEST: adding +1 to elements proves they're numbers: ${dataArray.map(num => num +1)}\n\n` );
-  // console.log( `TEST: noNegatives: ${dataArray}\n\n` );
-  // console.log( `RETURN: array unique length: ${dataArrayUndup.length}\n\n` );
-  // console.log( `RETURN: Square root of array: ${order}` );
-  // console.log( `RETURN: this an n x n (square) array: ${isInteger}` );
 
 })();
