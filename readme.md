@@ -10,13 +10,13 @@ Given space-separated string of numbers of any length:
 
 - split into an array
 - convert strings to numbers
+- remove any non-numbers
+- convert floats to integers
+- force negative numbers to positives
 - remove duplicates
 - check that mod sqrt length == 0
 
-- force negative numbers to positive
-- convert floats to integers
-
-RETURN: sqrt length is the order (n) of magic square
+If 0, this is an nxn matrix, with potential to be a magic square
 
 ---
 DONE TO HERE
@@ -24,14 +24,11 @@ DONE TO HERE
 ---
 
 TODO:
-- reject negative numbers and floats earlier?
-- delete floats, don't convert to integers
-- force negative numbers to positive or just delete?
-- or leave negatives for balanced squares?
+- delete floats instead of using math.floor
+- retain negatives for balanced squares e.g. 1, -1, 2, -2 etc.?
 
 
-
-## 2. Check numbers contiguous and all present 
+## 2. Check numbers are contiguous and all present 
 
 - map to a new sorted array
 - check that the lowest number is 0 or 1
