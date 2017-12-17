@@ -33,7 +33,7 @@
   // TEST true if square root of length is an integer
   let order = Math.sqrt(dataArrayUndup.length);
   let isInteger = (dataArrayUndup.length % order == 0);
-  // return true pr false here
+  // return true or false here
   outputToPrint += `<p>Square root of array length (${dataArrayUndup.length}) is: ${order}<br>If this is this an integer (${isInteger}) then this is a square (n x n) array: ${isInteger}</p>`;
 
 
