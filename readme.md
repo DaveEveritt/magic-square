@@ -75,6 +75,17 @@ RETURN: sub-type of magic square:
 - [ ] add order of square n mod n^2 - new equivalence class?
 - [ ] check complements[<sup>1</sup>](#fn1) by subtracting each number from n2 + 1
 
+---
+
+## References
+
+- [Alan Grogono, The 4x4 Pan-Magic Squares](https://www.grogono.com/magic/4x4.php)
+- [Alan Grogono, The Pan-Magic Carpet Story](https://www.grogono.com/magic/carpets.php)
+- [Harvey Heinz, A double magic square loop](http://www.magic-squares.net/transform-2.htm#A%20double%20magic%20square%20loop)
+- [Harvey Heinz, The 12 Groups](http://www.magic-squares.net/order4list.htm#The%2012%20Groups)
+- [Harvey Heinz, Increment base 4 digits](http://www.magic-squares.net/fellows.htm#Increment%20base%204%20digits)
+- [Harvey Heinz, Ralph Fellows Transformations](http://www.magic-squares.net/fellows.htm)
+
 ## Footnotes
 
 <b id="fn1">1.</b>  (1 15 14 4 12 6 7 9 8 10 11 5 13 3 2 16 => 16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1)
