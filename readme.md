@@ -73,10 +73,8 @@ RETURN: sub-type of magic square:
 - [ ] optional negatives for balanced squares e.g. 1, -1, 2, -2 etc.?
 - [ ] group JS functions in an object and/or create a module
 - [ ] add order of square n mod n^2 - new equivalence class?
-- [ ] check [complements][1] by subtracting each number from n2 + 1
-<!-- - [ ] check complements by subtracting each number from n2 + 1 <sup id="a1">[1](#f1)</sup> -->
+- [ ] check complements[<sup>1</sup>](#fn1) by subtracting each number from n2 + 1
 
 ## Footnotes
 
-[1]:  (1 15 14 4 12 6 7 9 8 10 11 5 13 3 2 16 => 16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1)
-<!-- <b id="f1">1</b>. (1 15 14 4 12 6 7 9 8 10 11 5 13 3 2 16 => 16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1) [↩](#a1) -->
+<b id="fn1">1.</b>  (1 15 14 4 12 6 7 9 8 10 11 5 13 3 2 16 => 16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1)
