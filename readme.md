@@ -45,7 +45,6 @@ RETURN: odd, even or odd-even
 
 ## 4. Prepare to check the magic properties
 
-- try [JavaScript `set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 - OR: split the array into n-length sub-arrays?
 - OR: parse through as a 1-dimensional array
 
@@ -57,7 +56,7 @@ RETURN: a suitable data structure for checking magic properties
 - rows
 - columns
 - diagonals
-- quarters
+- quarters (even/odd-even)
 - broken diagonals
 
 RETURN: sub-type of magic square:
@@ -72,4 +71,12 @@ RETURN: sub-type of magic square:
 
 - [ ] delete floats instead of using `math.floor`?
 - [ ] optional negatives for balanced squares e.g. 1, -1, 2, -2 etc.?
-- [ ] put JS functions in an object and/or create a module
+- [ ] group JS functions in an object and/or create a module
+- [ ] add order of square n mod n^2 - new equivalence class?
+- [ ] check [complements][1] by subtracting each number from n2 + 1
+<!-- - [ ] check complements by subtracting each number from n2 + 1 <sup id="a1">[1](#f1)</sup> -->
+
+## Footnotes
+
+[1]:  (1 15 14 4 12 6 7 9 8 10 11 5 13 3 2 16 => 16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1)
+<!-- <b id="f1">1</b>. (1 15 14 4 12 6 7 9 8 10 11 5 13 3 2 16 => 16 3 2 13 9 6 7 12 5 10 11 8 4 15 14 1) [↩](#a1) -->
